@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>KafeTouch – Digitale Kaffee-Bestellung</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f2ea;
+      color: #333;
+    }
+    header {
+      background: #6b4e3d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+    }
+    a.button {
+      display: inline-block;
+      background: #6b4e3d;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KafeTouch</h1>
+    <p>Intuitives Self-Service-Bestellsystem für Cafés & Bäckereien</p>
+  </header>
+
+  <div class="hero">
+    <img src="demo.png" alt="KafeTouch Interface Demo">
+    <p><a class="button" href="kafetouch_latest.zip" download>Code herunterladen</a></p>
+  </div>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Schnell bestellen</h2>
+      <p>Einfaches Touch-Menü für Kaffee, Tee und Schokolade.</p>
+    </div>
+    <div class="feature">
+      <h2>Personalisierbar</h2>
+      <p>Mit Optionen wie Hafermilch, Sojamilch, laktosefrei oder koffeinfrei.</p>
+    </div>
+    <div class="feature">
+      <h2>QR & Kartenzahlung</h2>
+      <p>Bezahlen mit Karte oder direkt per QR-Code.</p>
+    </div>
+    <div class="feature">
+      <h2>Sofortiger Bon</h2>
+      <p>Kund:innen erhalten direkt eine Abholnummer für ihren Kaffee.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 KafeTouch. Erstellt von [Dein Name].</p>
+  </footer>
+</body>
+</html>
